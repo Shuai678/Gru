@@ -1,69 +1,91 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Security;
 
 namespace Gru
 {
     internal class Gru
     {
-        public string numeroSeriale;
-        public string produttore;
-        public double pesoMassimoNominale;
-        public double altezzaMassimaNominale;
-        public double altezzaMinimaNominale;
-        public double altezzaCorrente;
-
-        public string NumeroSeriale 
+        private string serialNumber;
+        public string SerialNumber
         {
-            get { return NumeroSeriale; }
+            get { return serialNumber; }
         }
-        public string Produttore 
+        private string produttore;
+        public string Produttore
         {
-            get { return Produttore; }
+            get { return produttore; }
         }
-        public double PesoMassimoNominale 
+        private int pesoMaxNominale;
+        public int PesoMaxNominale
         {
-            get { return PesoMassimoNominale; }
-            set { PesoMassimoNominale = value; }
+            get { return pesoMaxNominale; }
         }
-        public double AltezzaMassimaNominale 
+        private int altezzaMaxNominale;
+        public int AltezzaMaxNominale
         {
-            get { return PesoMassimoNominale; }
-            set { PesoMassimoNominale = value; }
+            get { return altezzaMaxNominale; }
+            set { altezzaMaxNominale = value; } //necessario per set dell'utente
         }
-        public double AltezzaMinimaNominale 
+        private int altezzaMinNominale;
+        public int AltezzaMinNominale
         {
-            get { return AltezzaMinimaNominale; }
-            set { AltezzaMinimaNominale = value; }
+            get { return altezzaMinNominale; }
+            set { altezzaMinNominale = value; }
         }
-        public double AltezzaCorrente 
+        private int altezzaAttuale;
+        public int AltezzaAttuale
         {
-            get { return AltezzaCorrente; }
-            set { AltezzaCorrente = value; }
+            get { return altezzaAttuale; }
+            set { altezzaAttuale = value; }
         }
 
-        public Gru(string numeroSeriale, string produttore, double pesoMassimoNominale, double altezzaMassimaNominale, double altezzaMinimaNominale)
+        private int altezzaMetri;
+        public int AltezzaMetri
         {
-            this.numeroSeriale = numeroSeriale;
+            get { return altezzaMetri; }
+            set { altezzaMetri = value; }
+        }
+
+        private int altezzaMaxPossibile;
+        public int AltezzaMaxPossibile
+        {
+            get { return altezzaMaxPossibile; }
+        }
+
+        public void alzaGru(int deltaH)
+        {
+            if (altezzaAttuale > altezzaMaxNominale)
+            {
+                altezzaAttuale -= deltaH;
+            }
+        }
+        public void abbassaGru(int deltaH)
+        {
+            if(altezzaAttuale < (altezzaMinNominale))
+                altezzaAttuale += deltaH;
+        }
+        public void riportoSicurezza()
+        {
+            altezzaAttuale = altezzaMinNominale;
+        }
+
+        public double ConversioneMetri(int AltezzaRifpx)
+        {
+            return Math.Abs((AltezzaRifpx - 571) * 0.1);
+        }
+
+        public int Conversionepx (double AltezzaRifm)
+        {
+            return (int)(Math.Abs((AltezzaRifm - (571 * 0.1)) / 0.1));
+        }
+
+        public Gru(string serialNumber, string produttore, int pesoMaxNominale)
+        {
+            this.serialNumber = serialNumber;
             this.produttore = produttore;
-            PesoMassimoNominale = pesoMassimoNominale;
-            AltezzaMassimaNominale = altezzaMassimaNominale;
-            AltezzaMinimaNominale = altezzaMinimaNominale;
-            AltezzaCorrente = altezzaMinimaNominale;
-        }
-
-        public void Abbassa(double metri)
-        {
-            if (AltezzaCorrente - metri >= AltezzaMinimaNominale)
-            {
-                AltezzaCorrente -= metri;
-            }
-            else
-            {
-                Console.WriteLine("Errore: Non è possibile scendere sotto l'altezza minima nominale.");
-            }
+            this.pesoMaxNominale = pesoMaxNominale;
+            this.altezzaAttuale = altezzaMaxNominale;
         }
     }
 }
+

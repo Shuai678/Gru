@@ -1,22 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\shuai.21032\\Desktop\\Gru\\Gru\\",
+  "WorkspaceRootPath": "C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7A3AAE3-166B-47E4-9C83-E5AD08AD5F76}|Gru\\Gru.csproj|c:\\users\\shuai.21032\\desktop\\gru\\gru\\gru\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7A3AAE3-166B-47E4-9C83-E5AD08AD5F76}|Gru\\Gru.csproj|solutionrelative:gru\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{337FE449-6700-4FD7-BCDB-C75BB9084F5A}|Gru\\Gru.csproj|c:\\users\\ziyis\\onedrive\\desktop\\simulatore-gru-main\\gru\\gru\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{337FE449-6700-4FD7-BCDB-C75BB9084F5A}|Gru\\Gru.csproj|solutionrelative:gru\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7A3AAE3-166B-47E4-9C83-E5AD08AD5F76}|Gru\\Gru.csproj|c:\\users\\shuai.21032\\desktop\\gru\\gru\\gru\\stazioneradiocomando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7A3AAE3-166B-47E4-9C83-E5AD08AD5F76}|Gru\\Gru.csproj|solutionrelative:gru\\stazioneradiocomando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7A3AAE3-166B-47E4-9C83-E5AD08AD5F76}|Gru\\Gru.csproj|c:\\users\\shuai.21032\\desktop\\gru\\gru\\gru\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7A3AAE3-166B-47E4-9C83-E5AD08AD5F76}|Gru\\Gru.csproj|solutionrelative:gru\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{337FE449-6700-4FD7-BCDB-C75BB9084F5A}|Gru\\Gru.csproj|c:\\users\\ziyis\\onedrive\\desktop\\simulatore-gru-main\\gru\\gru\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337FE449-6700-4FD7-BCDB-C75BB9084F5A}|Gru\\Gru.csproj|solutionrelative:gru\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7A3AAE3-166B-47E4-9C83-E5AD08AD5F76}|Gru\\Gru.csproj|c:\\users\\shuai.21032\\desktop\\gru\\gru\\gru\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7A3AAE3-166B-47E4-9C83-E5AD08AD5F76}|Gru\\Gru.csproj|solutionrelative:gru\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{337FE449-6700-4FD7-BCDB-C75BB9084F5A}|Gru\\Gru.csproj|C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\gru\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337FE449-6700-4FD7-BCDB-C75BB9084F5A}|Gru\\Gru.csproj|solutionrelative:gru\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337FE449-6700-4FD7-BCDB-C75BB9084F5A}|Gru\\Gru.csproj|C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\gru\\comando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337FE449-6700-4FD7-BCDB-C75BB9084F5A}|Gru\\Gru.csproj|solutionrelative:gru\\comando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +29,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\shuai.21032\\Desktop\\Gru\\Gru\\Gru\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\Gru\\Form1.cs",
               "RelativeDocumentMoniker": "Gru\\Form1.cs",
-              "ToolTip": "C:\\Users\\shuai.21032\\Desktop\\Gru\\Gru\\Gru\\Form1.cs",
+              "ToolTip": "C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\Gru\\Form1.cs",
               "RelativeToolTip": "Gru\\Form1.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwCEAAAAAAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwFcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T10:42:01.919Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-11-05T20:30:39.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "stazioneRadioComando.cs",
-              "DocumentMoniker": "C:\\Users\\shuai.21032\\Desktop\\Gru\\Gru\\Gru\\stazioneRadioComando.cs",
-              "RelativeDocumentMoniker": "Gru\\stazioneRadioComando.cs",
-              "ToolTip": "C:\\Users\\shuai.21032\\Desktop\\Gru\\Gru\\Gru\\stazioneRadioComando.cs",
-              "RelativeToolTip": "Gru\\stazioneRadioComando.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:39:03.919Z",
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAC8NAAAAAAAAAAAAADkNAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-05T20:30:01.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Gru.cs",
-              "DocumentMoniker": "C:\\Users\\shuai.21032\\Desktop\\Gru\\Gru\\Gru\\Gru.cs",
-              "RelativeDocumentMoniker": "Gru\\Gru.cs",
-              "ToolTip": "C:\\Users\\shuai.21032\\Desktop\\Gru\\Gru\\Gru\\Gru.cs",
-              "RelativeToolTip": "Gru\\Gru.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAswDkAAAAJAAAA",
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\Gru\\Form1.cs",
+              "RelativeDocumentMoniker": "Gru\\Form1.cs",
+              "ToolTip": "C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\Gru\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "Gru\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:11:38.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T20:24:36.597Z",
+              "EditorCaption": " [Progettazione]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\shuai.21032\\Desktop\\Gru\\Gru\\Gru\\Form1.cs",
-              "RelativeDocumentMoniker": "Gru\\Form1.cs",
-              "ToolTip": "C:\\Users\\shuai.21032\\Desktop\\Gru\\Gru\\Gru\\Form1.cs [Progettazione]",
-              "RelativeToolTip": "Gru\\Form1.cs [Progettazione]",
+              "Title": "Gru.cs",
+              "DocumentMoniker": "C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\Gru\\Gru.cs",
+              "RelativeDocumentMoniker": "Gru\\Gru.cs",
+              "ToolTip": "C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\Gru\\Gru.cs",
+              "RelativeToolTip": "Gru\\Gru.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wBoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T10:40:22.228Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2024-11-05T20:24:08.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comando.cs",
+              "DocumentMoniker": "C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\Gru\\Comando.cs",
+              "RelativeDocumentMoniker": "Gru\\Comando.cs",
+              "ToolTip": "C:\\Users\\ziyis\\OneDrive\\Desktop\\Simulatore-Gru-main\\Gru\\Gru\\Comando.cs",
+              "RelativeToolTip": "Gru\\Comando.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T20:16:33.49Z"
             }
           ]
         }
